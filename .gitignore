@@ -99,6 +99,8 @@ venv.bak/
 
 # mkdocs documentation
 /site
+*.html
 
 # mypy
 .mypy_cache/
+.ipynb_checkpoints
