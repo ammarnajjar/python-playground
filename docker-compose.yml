@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  notebook:
+    image: jupyter/scipy-notebook
+    container_name: jupyter-scipy
+    volumes:
+      - .:/home/jovyan/
+    ports:
+      - 8888:8888
